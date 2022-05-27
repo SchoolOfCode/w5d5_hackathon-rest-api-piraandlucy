@@ -26,19 +26,19 @@ export const albums = [
 {
     title: "Swimming",
     artist: "Mac Miller",
-    release_date: "2018",
+    release_year: "2018",
     label: "REMember Music/Warner Bros."
 },
 {
     title: "Reach Out",
     artist: "The Four Tops",
-    release_date: "1967",
+    release_year: "1967",
     label: "Motown"
 },
 {
     title: "Still Waters Run Deep",
     artist: "The Four Tops",
-    release_date: "1970",
+    release_year: "1970",
     label: "Motown"
 }
 ]
