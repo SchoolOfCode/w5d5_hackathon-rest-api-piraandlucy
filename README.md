@@ -7,9 +7,20 @@ Your task is to build a REST API using Node.js, Express & PostgreSQL. It will be
 ## Requirements
 
 - Must use a database (hosted on heroku or elephantSQL) for persistent storage
+  - create new app on heroku DONE
+  - get database credentials DONE
 - Must use a REST API server with routes to manage requests and serve responses
+  - create `albums.js` file in `routes` folder
+  - create routers to handle CRUD requests
+  - import functions from `models` to use in handlers
 - Must use the models pattern to allow easy interaction with the database
+  - create `albums.js` file in `models` folder
+  - create CRUD functions to pull data from the database
+  - export functions for use in `routes/albums.js`
 - Must use environment variables to store database credentials - do not hard code those credentials!
+  - create `.env` file DONE
+  - store credentials in here DONE
+  - refer to credentials in `scripts/index.js` DONE
 - Bonus: Once your API is up and running, you could build a front end which allows you to view, create, edit and delete data
 
 The rest is up to you!
