@@ -7,13 +7,16 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon -r dotenv/config app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:createTableTrivia":"node -r dotenv/config ./db/createTable/createTableTRIVIA.js",
+    "db:populateTableTrivia":"node -r dotenv/config ./db/populateTable/populateTableTrivia.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1",
+    "node-fetch": "^3.2.4",
     "pg": "^8.7.3"
   },
   "devDependencies": {

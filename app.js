@@ -15,6 +15,13 @@ app.get("/", function (req, res) {
 
 
 
+import  routerQuestions  from './routes/questions.js';
+
+// questions router:
+app.use('/questions', routerQuestions);
+
+
+
 
 
 
