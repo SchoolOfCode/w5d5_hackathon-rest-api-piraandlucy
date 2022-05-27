@@ -23,3 +23,5 @@ app.use("/", indexRouter);
 app.use("/albums", albumRouter);
 
 export default app;
+
+console.log(PORT);
